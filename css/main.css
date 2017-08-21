@@ -1,8 +1,11 @@
 body {
-    margin: 60px auto;
+    margin: 100px auto;
     width: 70%;
+    padding-bottom: 0;
+    overflow-x: hidden;
+
 }
-nav ul, footer ul {
+nav ul, footer ul, label{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -14,7 +17,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #91bbff;
 }
 a:hover {
     text-decoration: underline;
@@ -40,4 +43,30 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+header {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+span {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-color: #4286f4;
+    font-size: 1em;
+}
+#proj-link{
+    text-decoration: none;
+    font-color: #4286f4;
+    font-size: 1em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+.proj-language{
+
+}
+
+.link {
+    text-decoration: none;
+    font-color: #4286f4;
+    font-size: 1em;
 }

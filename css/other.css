@@ -105,6 +105,12 @@ body {
     color: var(--h2-c);
 }
 
+.frame iframe {
+    width: 500px;
+    height: 200px;
+    frameborder: 1;
+}
+
 /*
   ========================================
   Grid
@@ -315,6 +321,7 @@ p a {
     border: none;
     background: none;
     color: var(--txt-c);
+    border-radius: 0;
 }
 
 .btn-special:focus,.btn:active {
@@ -794,4 +801,25 @@ textarea {
 .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
+}
+
+/*
+other stuff
+ */
+.button {
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #006599;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+}
+.button:active {
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);
 }

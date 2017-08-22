@@ -11,15 +11,17 @@
     --font-fuck-you: 300 16px/22px "Comic Sans MS", cursive, sans-serif;
 
     /* Color Palette */
-    --bgd-c: #c54ca8;
-    --bgd-sc: #c25fcb;
-    --h1-c: #aa73d2;
-    --h2-c: #9c88d8;
-    --txt-c: #9da2df;
-    --txt-sc: #b4c8e5;
-    --f-c: #cce3ec;
+    --bgd-c: #A3015E;
+    --bgd-sc: #AD1E4C;
+    --h1-c: #B73E47;
+    --h2-c: #C17261;
+    --txt-c: #CAA487;
+    --txt-sc: #D4C9B1;
+    --f-c: #DEDEDD;
 
+    /* Default colors */
     --def-bgd: #242427;
+
     /* Default text colors */
     --white: #ffff;
     --txt-grey: #898989;
@@ -105,7 +107,7 @@ body {
 }
 
 .header-divider {
-    color: var(--h2-c);
+    color: var(--h1-c);
 }
 
 .frame iframe {

@@ -11,14 +11,15 @@
     --font-fuck-you: 300 16px/22px "Comic Sans MS", cursive, sans-serif;
 
     /* Color Palette */
-    --bgd-c: #544698;
-    --bgd-sc: #545DA4;
-    --h1-c: #6381AF;
-    --h2-c: #74A3BB;
-    --txt-c: #86C2C6;
-    --txt-sc: #99D2C6;
-    --f-c: #ADDDC6;
+    --bgd-c: #c54ca8;
+    --bgd-sc: #c25fcb;
+    --h1-c: #aa73d2;
+    --h2-c: #9c88d8;
+    --txt-c: #9da2df;
+    --txt-sc: #b4c8e5;
+    --f-c: #cce3ec;
 
+    --def-bgd: #242427;
     /* Default text colors */
     --white: #ffff;
     --txt-grey: #898989;
@@ -56,6 +57,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -88,9 +90,10 @@ table {
 */
 
 body {
-    background: var(--bgd-c);
+    background: var(--def-bgd);
     color: var(--bgd-c);
     font: var(--font);
+    height: 100%;
 }
 
 .url-link {
@@ -111,6 +114,14 @@ body {
     frameborder: 1;
 }
 
+/*footer {*/
+    /*max-height: 100px;*/
+    /*position: center;*/
+/*}*/
+
+.div-wrapper {
+    padding: 100px;
+}
 /*
   ========================================
   Grid
@@ -182,7 +193,8 @@ body {
 }
 .row {
     background: #ffffff;
-    padding: 66px 0 44px 0;
+    padding: 11px 0 11px 0;
+    height: 100%;
 }
 .row-alt {
     background: var(--white);
@@ -190,6 +202,27 @@ body {
     background: var(--b-grd-moz);
     background: var(--b-grd);
     padding: 44px 0 22px 0;
+}
+
+.row-alt-top {
+    border-top: solid var(--def-bgd) 2px;
+    border-bottom: solid var(--def-bgd) 2px;
+    background: var(--white);
+    background: var(--b-grd-webkit);
+    background: var(--b-grd-moz);
+    background: var(--b-grd);
+    padding: 11px 0 11px 0;
+}
+
+
+.row-alt-bottom {
+    border-top: solid var(--def-bgd) 2px;
+    border-bottom: solid var(--def-bgd) 2px;
+    background: var(--white);
+    background: var(--b-grd-webkit);
+    background: var(--b-grd-moz);
+    background: var(--b-grd);
+    padding: 9px;
 }
 
 /*
@@ -202,7 +235,7 @@ h1, h2, h3, h4 {
     color: var(--h2-c);
 }
 h1, h3, h4, h5, p {
-    margin-bottom: 22px;
+    margin-bottom: 11px;
 }
 h1 {
     font-size: 36px;
@@ -214,6 +247,7 @@ h2 {
 }
 h3 {
     font-size: 21px;
+    padding: 2px;
 }
 h4 {
     font-size: 18px;
@@ -363,10 +397,11 @@ p a {
 .primary-footer {
     color: var(--h2-c);
     font-size: 14px;
-    padding-bottom: 44px;
-    padding-top: 44px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 .primary-footer small {
+    padding-top: 8px;
     float: left;
     font-weight: 400;
 }
@@ -426,6 +461,7 @@ p a {
     margin-bottom: 22px;
     max-width: 100%
 }
+
 
 /*
   ========================================
@@ -790,8 +826,8 @@ textarea {
     transform-origin: 50% 0;
     -webkit-transition-property: transform;
     transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }

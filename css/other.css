@@ -11,13 +11,13 @@
     --font-fuck-you: 300 16px/22px "Comic Sans MS", cursive, sans-serif;
 
     /* Color Palette */
-    --bgd-c: #A3015E;
-    --bgd-sc: #AD1E4C;
-    --h1-c: #B73E47;
-    --h2-c: #C17261;
-    --txt-c: #CAA487;
-    --txt-sc: #D4C9B1;
-    --f-c: #DEDEDD;
+    --bgd-c: #FF0040;
+    --bgd-sc: #FF2244;
+    --h1-c: #FF454E;
+    --h2-c: #FC6E66;
+    --txt-c: #F99886;
+    --txt-sc: #F6BAA6;
+    --f-c: #F3D5C5;
 
     /* Default colors */
     --def-bgd: #242427;
